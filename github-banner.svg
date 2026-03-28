@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1220"/>
+      <stop offset="50%" style="stop-color:#0F1B2D"/>
+      <stop offset="100%" style="stop-color:#162336"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4AC0D"/>
+      <stop offset="100%" style="stop-color:#F1C40F"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#148F77"/>
+      <stop offset="100%" style="stop-color:#1ABC9C"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  
+  <!-- Top gold line -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#gold)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="1200" y2="150" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="0" y1="250" x2="1200" y2="250" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="300" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="300" stroke="#D4AC0D" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#D4AC0D" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="80" r="60" fill="none" stroke="#D4AC0D" stroke-width="0.5" opacity="0.08"/>
+  <circle cx="1050" cy="80" r="90" fill="none" stroke="#D4AC0D" stroke-width="0.5" opacity="0.05"/>
+  <circle cx="1050" cy="80" r="120" fill="none" stroke="#D4AC0D" stroke-width="0.5" opacity="0.03"/>
+  <circle cx="150" cy="250" r="50" fill="none" stroke="#1ABC9C" stroke-width="0.5" opacity="0.06"/>
+  <circle cx="150" cy="250" r="80" fill="none" stroke="#1ABC9C" stroke-width="0.5" opacity="0.03"/>
+  
+  <!-- Left accent bar -->
+  <rect x="60" y="55" width="4" height="80" fill="url(#gold)" rx="2"/>
+  
+  <!-- Main title -->
+  <text x="80" y="95" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="bold" fill="#FFFFFF" letter-spacing="3">JITIN AGARWAL</text>
+  
+  <!-- Subtitle -->
+  <text x="84" y="128" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="15" fill="#D4AC0D" letter-spacing="4">FINANCE OPERATIONS  ·  TRANSFORMATION  ·  STRATEGY</text>
+  
+  <!-- Tagline -->
+  <text x="84" y="158" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#85929E" letter-spacing="1">Building finance systems from bookkeeping to M&amp;A valuation — one dataset, full lifecycle</text>
+  
+  <!-- Stats boxes -->
+  <g transform="translate(80, 185)">
+    <!-- Stat 1 -->
+    <rect x="0" y="0" width="120" height="55" rx="4" fill="#162336" stroke="#1A5276" stroke-width="0.5"/>
+    <text x="60" y="22" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#D4AC0D" text-anchor="middle">15+</text>
+    <text x="60" y="40" font-family="Calibri, sans-serif" font-size="10" fill="#85929E" text-anchor="middle">Years Finance</text>
+    
+    <!-- Stat 2 -->
+    <rect x="135" y="0" width="120" height="55" rx="4" fill="#162336" stroke="#1A5276" stroke-width="0.5"/>
+    <text x="195" y="22" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1ABC9C" text-anchor="middle">8</text>
+    <text x="195" y="40" font-family="Calibri, sans-serif" font-size="10" fill="#85929E" text-anchor="middle">Phase Roadmap</text>
+    
+    <!-- Stat 3 -->
+    <rect x="270" y="0" width="120" height="55" rx="4" fill="#162336" stroke="#1A5276" stroke-width="0.5"/>
+    <text x="330" y="22" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#2E86C1" text-anchor="middle">40+</text>
+    <text x="330" y="40" font-family="Calibri, sans-serif" font-size="10" fill="#85929E" text-anchor="middle">GitHub Models</text>
+    
+    <!-- Stat 4 -->
+    <rect x="405" y="0" width="120" height="55" rx="4" fill="#162336" stroke="#1A5276" stroke-width="0.5"/>
+    <text x="465" y="22" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#E67E22" text-anchor="middle">20+</text>
+    <text x="465" y="40" font-family="Calibri, sans-serif" font-size="10" fill="#85929E" text-anchor="middle">US/CA Clients</text>
+  </g>
+  
+  <!-- Right side: Phase icons -->
+  <g transform="translate(700, 60)">
+    <text x="0" y="0" font-family="Calibri, sans-serif" font-size="10" fill="#D4AC0D" letter-spacing="3">THE ROADMAP</text>
+    
+    <!-- Phase boxes in 2 rows of 4 -->
+    <g transform="translate(0, 15)">
+      <rect x="0" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="0" y="0" width="55" height="3" rx="1" fill="#2E86C1"/>
+      <text x="27" y="18" font-family="Georgia, serif" font-size="10" fill="#2E86C1" text-anchor="middle" font-weight="bold">01</text>
+      <text x="27" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">Foundation</text>
+      
+      <rect x="63" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="63" y="0" width="55" height="3" rx="1" fill="#27AE60"/>
+      <text x="90" y="18" font-family="Georgia, serif" font-size="10" fill="#27AE60" text-anchor="middle" font-weight="bold">02</text>
+      <text x="90" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">Bookkeeping</text>
+      
+      <rect x="126" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="126" y="0" width="55" height="3" rx="1" fill="#E67E22"/>
+      <text x="153" y="18" font-family="Georgia, serif" font-size="10" fill="#E67E22" text-anchor="middle" font-weight="bold">03</text>
+      <text x="153" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">Close</text>
+      
+      <rect x="189" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="189" y="0" width="55" height="3" rx="1" fill="#8E44AD"/>
+      <text x="216" y="18" font-family="Georgia, serif" font-size="10" fill="#8E44AD" text-anchor="middle" font-weight="bold">04</text>
+      <text x="216" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">FP&amp;A</text>
+      
+      <rect x="252" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="252" y="0" width="55" height="3" rx="1" fill="#E74C3C"/>
+      <text x="279" y="18" font-family="Georgia, serif" font-size="10" fill="#E74C3C" text-anchor="middle" font-weight="bold">05</text>
+      <text x="279" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">Analytics</text>
+      
+      <rect x="315" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="315" y="0" width="55" height="3" rx="1" fill="#1ABC9C"/>
+      <text x="342" y="18" font-family="Georgia, serif" font-size="10" fill="#1ABC9C" text-anchor="middle" font-weight="bold">06</text>
+      <text x="342" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">Strategy</text>
+      
+      <rect x="378" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="378" y="0" width="55" height="3" rx="1" fill="#D4AC0D"/>
+      <text x="405" y="18" font-family="Georgia, serif" font-size="10" fill="#D4AC0D" text-anchor="middle" font-weight="bold">07</text>
+      <text x="405" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">Valuation</text>
+      
+      <rect x="441" y="0" width="55" height="40" rx="3" fill="#162336"/>
+      <rect x="441" y="0" width="55" height="3" rx="1" fill="#2C3E50"/>
+      <text x="468" y="18" font-family="Georgia, serif" font-size="10" fill="#D5D8DC" text-anchor="middle" font-weight="bold">08</text>
+      <text x="468" y="32" font-family="Calibri, sans-serif" font-size="7" fill="#85929E" text-anchor="middle">AI + Mkts</text>
+    </g>
+    
+    <!-- Tagline under phases -->
+    <text x="0" y="80" font-family="Calibri, sans-serif" font-size="9" fill="#85929E">One business · One dataset · Bookkeeping → M&amp;A · Full lifecycle</text>
+    
+    <!-- Credentials line -->
+    <text x="0" y="110" font-family="Calibri, sans-serif" font-size="9" fill="#85929E">MBA (Finance) IIFT · Diploma IFRS ACCA · FMVA CFI · Six Sigma Green Belt</text>
+    
+    <!-- Links -->
+    <text x="0" y="140" font-family="Calibri, sans-serif" font-size="9" fill="#2E86C1">linkedin.com/in/fpnajitin</text>
+    <text x="200" y="140" font-family="Calibri, sans-serif" font-size="9" fill="#E74C3C">▶ YouTube: Finance Mastery</text>
+  </g>
+  
+  <!-- Bottom gold line -->
+  <rect x="0" y="296" width="1200" height="4" fill="url(#gold)"/>
+</svg>
